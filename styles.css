@@ -1,0 +1,376 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #FFB6C1, #8A2BE2); /* Soft pastel gradient */
+    color: #fff; /* Change text color to white for better contrast */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(to right, #FF6347, #FFD700); /* Bright orange-to-yellow gradient */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    transition: background 0.5s ease;
+}
+
+.navbar:hover {
+    background: linear-gradient(to right, #FFD700, #FF6347); /* Reverse gradient on hover */
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: rotate(5deg); /* Slight rotation effect */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF6347; /* Tomato red hover effect */
+    text-shadow: 0 0 10px rgba(255, 99, 71, 0.8);
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Hero Section Styling */
+.hero {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #FF1493, #4B0082); /* Bright pink-to-indigo gradient */
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3); /* Subtle inner shadow */
+    position: relative;
+    transition: background 0.5s ease;
+}
+
+.hero:hover {
+    background: linear-gradient(135deg, #4B0082, #FF1493); /* Reverse gradient on hover */
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    animation: fadeInUp 1.5s ease-in-out;
+    letter-spacing: 2px;
+    transition: transform 0.5s ease;
+}
+
+.hero h1:hover {
+    transform: translateY(-10px); /* Hover lift effect */
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #f1f1f1;
+    animation: fadeInUp 2s ease-in-out;
+    margin-top: 1rem;
+    transition: color 0.3s ease;
+}
+
+.hero p:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.hero button {
+    background-color: #FF1493; /* Hot pink */
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #4B0082; /* Indigo */
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Carousel Styling */
+.carousel-item {
+    background-color: #F0E68C; /* Khaki background for carousel */
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-item h3 {
+    font-size: 2rem;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.carousel-item h3:hover {
+    color: #FF6347; /* Hover to tomato red */
+}
+
+.carousel-item p {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.carousel-item p:hover {
+    color: #333; /* Darker text on hover */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #FF6347; /* Tomato red for carousel arrows */
+    transition: background-color 0.3s ease;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #FFD700; /* Gold on hover */
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+    background: #32CD32; /* Lime Green background */
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#about:hover {
+    background: #228B22; /* Darker green on hover */
+}
+
+#about .lead {
+    color: #fff;
+}
+
+.badge {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #FFD700; /* Gold */
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.badge:hover {
+    background-color: #FF4500; /* Orange red */
+    transform: translateY(-5px); /* Small hover lift effect */
+}
+
+/* Skills Carousel */
+#skills {
+    padding: 4rem 0;
+    background: #20B2AA; /* Light Sea Green background */
+}
+
+.carousel-item {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-item h3 {
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.carousel-item h3:hover {
+    color: #FF6347; /* Tomato red hover */
+}
+
+.carousel-item p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.carousel-item p:hover {
+    color: #333; /* Darker text on hover */
+}
+
+.carousel-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+#projects {
+    padding: 4rem 0;
+    background: linear-gradient(to right, #FF8C00, #FF6347); /* Gradient from orange to red */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: #FF6347; /* Tomato red background on hover */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.card-title:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.card-text:hover {
+    color: #333; /* Darker text on hover */
+}
+
+.card a {
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #32CD32; /* Lime green */
+    transform: translateY(-3px); /* Slight hover lift effect */
+}
+
+/* Contact Form */
+#contact {
+    background: linear-gradient(to left, #00BFFF, #1E90FF); /* Sky blue to dodger blue */
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact .form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+#contact input, #contact textarea {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+#contact input:focus, #contact textarea:focus {
+    border-color: #FF4500; /* Orange red focus */
+    outline: none;
+}
+
+#contact button {
+    background-color: #FF4500; /* Orange red */
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #FF6347; /* Tomato red */
+    transform: scale(1.05);
+}
+
+/* Toast Notification */
+.toast {
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.toast-header {
+    background-color: #32CD32; /* Lime green header */
+    color: #fff;
+}
+
+.toast-body {
+    color: #fff;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover Animations */
+.card, .navbar-nav .nav-link, .hero button {
+    transition: all 0.3s ease;
+}
+
+/* Scroll Animation */
+.animate__fadeInLeft {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.animate__fadeInRight {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        padding: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        margin: 1rem 0;
+    }
+
+    .carousel-item {
+        padding: 1rem;
+    }
+}

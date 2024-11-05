@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Surendar B Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-lg">
+          <a class="navbar-brand" href="#">Surendar B</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <a class="nav-link active" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <a class="btn btn-outline-light d-none d-lg-block" href="#contact">Let's Talk</a>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-lg-start" id="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">Surendar B</h1>
+                    <p class="lead">Enthusiastic computer science student with hands-on experience in web development projects. Proficient in Java, HTML, CSS, and JavaScript. Passionate about creating dynamic and user-friendly web applications, eager to contribute innovative solutions in a collaborative team environment.</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="./file.png" class="img-fluid rounded-circle" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="lead text-center">I am passionate about creating dynamic and user-friendly web applications. With experience in HTML, CSS, JavaScript, and Java, I am eager to contribute innovative solutions in a collaborative team environment.</p>
+            <div class="d-flex justify-content-center">
+                <span class="badge bg-secondary" data-bs-toggle="tooltip" title="Web Development Skills">HTML</span>
+                <span class="badge bg-secondary ms-2" data-bs-toggle="tooltip" title="Experienced with Java">Java</span>
+                <span class="badge bg-secondary ms-2" data-bs-toggle="tooltip" title="JavaScript Enthusiast">JavaScript</span>
+                <span class="badge bg-secondary ms-2" data-bs-toggle="tooltip" title="Programming Knowledge">Python</span>
+                <span class="badge bg-secondary ms-2" data-bs-toggle="tooltip" title="Programming Knowledge">C++</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-5" id="education">
+        <div class="container">
+            <h2 class="text-center mb-4">Education</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Bachelor of Technology in Computer Science & Engineering</h4>
+                    <p>Dayananda Sagar University, Bengaluru, Karnataka</p>
+                    <p><strong>Sep 2021 - Present</strong></p>
+                    <p>Focused on web development, software engineering principles, and problem-solving strategies. Gained hands-on experience in a variety of programming languages and tools.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Sri Chaitanya Techno School</h4>
+                    <p>Higher Secondary School, Bengaluru, Karnataka</p>
+                    <p><strong>Graduated: 2021</strong></p>
+                    <p>Specialized in Mathematics and Computer Science, with a strong emphasis on logical thinking and problem-solving.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5" id="projects">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <p class="text-center">A showcase of my web development and software engineering projects.</p>
+            
+            <!-- Project 1 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio Website</h5>
+                    <p class="card-text">A personal portfolio website designed to showcase my skills, experience, and projects. Built with HTML, CSS, and JavaScript, this website allows visitors to learn more about me and interact with my work.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks Website Menu Redesign</h5>
+                    <p class="card-text">A comprehensive redesign of the Starbucks website menu to enhance user experience. This project focused on creating an intuitive and welcoming interface for easy ordering and interaction with the brand.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5 bg-light" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+                </div>
+                <div class="col-12">
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-dark">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast bg-dark text-white" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Portfolio Update</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Explore my skills and projects!
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Show toast on button click
+        function showToast() {
+            var toastElement = document.getElementById('liveToast');
+            var toast = new bootstrap.Toast(toastElement);
+            toast.show();
+        }
+
+        // Initialize Bootstrap Tooltips
+        document.addEventListener("DOMContentLoaded", function(){
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+                new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+        });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+     crossorigin="anonymous"></script>
+  </body>
+</html>
